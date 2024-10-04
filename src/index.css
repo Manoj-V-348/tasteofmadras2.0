@@ -1,0 +1,97 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --orangeRed: #FF4500;
+}
+div > img{
+  width: 100%;
+  height: auto;
+}
+
+.horizontal--flex{
+  display: flex;
+  flex-direction: row;
+}
+.vertical--flex{
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.bold{
+  font-weight: 700;
+}
+.red{
+  color: var(--orangeRed);
+}
+.italic{
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CursiveFont';
+  src: url('./fonts/Peristiwa.otf') format('opentype');
+}
+.cursive{
+  font-family: 'CursiveFont', sans-serif;
+}
+
+.custom--button{
+  padding: 2px;
+  background-color: #ffe5dc;
+  color: black;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  position: relative;
+}
+.custom--button--logo{
+  background-color: #FF4500;
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.custom--button > p{
+  margin-left: auto;
+  padding-right: 15px;
+}
+.custom--button:hover{
+  flex-direction: row-reverse;
+  background-color: black;
+  color: white;
+}
+.custom--button:hover > .custom--button--logo{
+  background-color: rgb(255, 221, 0);
+  right: 0;
+  left: 70%;
+}
+.custom--button:hover > .button--text{
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 15px;
+}
