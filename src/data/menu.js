@@ -46,15 +46,6 @@ const menu = [
     },
     {
         id : 6,
-        itemName : "Mushroom Pepper Fry",
-        price : "$13.99",
-        itemDescription : "Sautéed mushrooms with a kick of black pepper and Indian spices.",
-        itemType : "Starters",
-        veg : true,
-        nonVeg : false
-    },
-    {
-        id : 7,
         itemName : "Onion Pakora",
         price : "$11.99",
         itemDescription : "Deep-fried cauliflower florets tossed in a spicy and tangy sauce.",
@@ -63,7 +54,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 8,
+        id : 7,
         itemName : "French Fries",
         price : "$6.50",
         itemDescription : "Classic golden fries, lightly salted and served crispy.",
@@ -72,7 +63,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 9,
+        id : 8,
         itemName : "Sambar Vada",
         price : "$7.99",
         itemDescription : "Lentil doughnuts soaked in a rich, tangy sambar sauce.",
@@ -81,7 +72,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 10,
+        id : 9,
         itemName : "Thayir Vada",
         price : "$7.99",
         itemDescription : "Lentil doughnuts soaked in creamy yogurt and garnished with spices.",
@@ -90,7 +81,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 11,
+        id : 10,
         itemName : "Cassava Fries",
         price : "$8.99",
         itemDescription : "Crunchy and golden fried cassava sticks",
@@ -99,7 +90,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 12,
+        id : 11,
         itemName : "Veg Samosa",
         price : "$4.99",
         itemDescription : "Crispy pastry pockets stuffed with a spiced potato and pea filling.",
@@ -108,7 +99,7 @@ const menu = [
         nonVeg : false
     },
     {
-        id : 13,
+        id : 12,
         itemName : "Bajji (4pc) (Plantain, Bread, Onion)",
         price : "$5.99",
         itemDescription : " Assorted fritters made from plantain, bread, and onion, dipped in chickpea batter and fried",
