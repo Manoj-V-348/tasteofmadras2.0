@@ -10,7 +10,7 @@ import Testimonials from "./pages/Testimonials";
 import Blogs from "./pages/Blogs";
 
 import './index.css'
-import './App.css'
+
 
 function App() {
 

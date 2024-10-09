@@ -1,0 +1,55 @@
+.menu--sidebar{
+    width: 20dvw;
+    height: 100dvh;
+    background-color: var(--mainColor);
+    color: white;
+
+    -webkit-box-shadow: 10px 0px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 0px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 0px 35px 0px rgba(0,0,0,0.75);
+}
+.menu--image--container{
+    padding: 15px;
+    gap: 10px;
+    font-size: 3rem;
+}
+.menu--image--container > img{
+    width: 50px;
+}
+.menu--display--container{
+    padding: 30px;
+    width: 100%;
+    gap: 20px;
+}
+.menu--list--container, .menu--item--description--container{
+    width: 50%
+}
+.menu--list--heading, .description--header{
+    padding: 5px 15px;
+    background-color: var(--mainColor);
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.menu--item{
+    font-weight: 500;
+    padding: 5px 15px;
+    justify-content: space-between;
+}
+.menu--item:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.item--price{
+    color: var(--orangeRed);
+    font-weight: 700;
+}
+.menu--description{
+    font-weight: 500;
+    gap: 15px;
+}
+.menu--description > img{
+    width: 50%;
+}

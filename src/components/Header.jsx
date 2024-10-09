@@ -10,9 +10,9 @@ function Header() {
   return (
     <>
         <header className='horizontal--flex'>
-            <div className="logo--container">
+            <Link to="/" className="logo--container">
                 <img src={logo} alt="tasteofmadras" />
-            </div>
+            </Link>
             
             <div className="pages--bar horizontal--flex">
                 <Link to="/" className='pages--text'>Home</Link>
