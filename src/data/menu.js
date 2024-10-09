@@ -37,9 +37,9 @@ const menu = [
     },
     {
         id : 5,
-        itemName : "Gobi 65",
-        price : "$11.99",
-        itemDescription : "Deep-fried cauliflower florets tossed in a spicy and tangy sauce.",
+        itemName : "Mushroom Pepper Fry",
+        price : "$13.99",
+        itemDescription : "Sautéed mushrooms with a kick of black pepper and Indian spices.",
         itemType : "Starters",
         veg : true,
         nonVeg : false
